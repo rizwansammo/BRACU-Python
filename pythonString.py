@@ -74,3 +74,17 @@ print("Starts with 'Hello':", starts_with)
 ends_with = str3.endswith("World")
 print("Ends with 'World':", ends_with)
 
+# Advanced formatting with f-Strings
+value = 3.14159
+formatted_value = f"Value: {value:.2f}"
+print("Formatted value:", formatted_value)
+
+# Multiline strings
+multiline_str = """This is a
+multiline string
+in Python."""
+print("Multiline string:", multiline_str)
+
+# Raw strings (useful for regex)
+raw_str = r"C:\Users\Rizwan\Desktop"
+print("Raw string:", raw_str)
