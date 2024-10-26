@@ -11,6 +11,6 @@ while num <= end:
         print(f"{num} is even")
     else:
         print(f"{num} is odd")
-    
+
     # Increment the number
     num += 1
